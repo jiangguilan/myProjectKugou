@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$.ajax({
+		url:"footer.html",
+		type:"GET",
+		success:function(html){
+			$("#footer").html(html);
+		},
+		error:function(){alert("网络故障请检查")},
+		dataType:"html"
+	})
+})

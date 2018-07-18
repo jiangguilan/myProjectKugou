@@ -1,0 +1,116 @@
+
+/* 登录 */
+.containerLogin{
+	width:100%;
+	height:660px;
+	background:rgba(0,0,0,.3);
+	position:absolute;
+	left:0px;
+	top:0px;
+	position:fixed;
+	//display:none;
+}
+.login{
+	width:440px;
+	height:376px;
+	background:#fff;
+	/* position:absolute;
+	left:450px;
+	top:150px; */
+	padding:30px;
+	box-sizing:border-box;
+	color:#000;
+	position:fixed;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	margin:auto;
+	//display:none;
+}
+.login>p{
+	color:#000;
+	font-size:24px;
+	text-align:left;
+	margin-bottom:10px;
+}
+.userMsg{
+	display:inline-block;
+	width:100%;
+	height:40px;
+	background:#F6F6F6;
+	margin-top:10px;
+	padding:10px;
+	box-sizing:border-box;
+	outline:none;
+	border:1px solid #ddd;
+}
+.forget{
+	position:absolute;
+	left:330px;
+	top:140px;
+}
+.checkbox{
+	display:inline-block;
+	color:#000;
+	margin-top:10px;
+}
+.checkbox{
+	display:inline-block;
+	color:#000;
+	margin-top:10px;
+}
+.register{
+	display:inline-block;
+	color:#7B7B7B;
+	position:absolute;
+	left:330px;
+	top:180px;
+}
+button{
+	width:100%;
+	height:40px;
+	background:#158FE1;
+	border:0px;
+	margin-top:40px;
+	color:#fff;
+	font-size:16px;
+	border-radius:5px;
+}
+button:hover{
+	cursor:pointer;
+}
+.otherLogin{
+	display:inline-block;
+	margin-top:50px;
+	color:#7B7B7B;
+}
+.otherLoginImg1{
+	display:inline-block;
+	width:18px;
+	height:18px;
+	background:url(../img/index/otherLogin.png) -23px -122px;
+	vertical-align:bottom;
+}
+.otherLoginImg2{
+	display:inline-block;
+	width:18px;
+	height:18px;
+	background:url(../img/index/otherLogin.png) -122px -122px;
+	vertical-align:bottom;
+}
+.login>a:nth-child(12),.login>a:nth-child(13){
+	float:right;
+	margin-top:50px;
+	margin-left:5px;
+	text-decoration:underline;
+}
+.login>a:nth-child(14){
+	display:inline-block;
+	width:18px;
+	height:18px;
+	background:url(../img/index/otherLogin.png) -173px -97px;
+	position:absolute;
+	left:410px;
+	top:10px;
+}

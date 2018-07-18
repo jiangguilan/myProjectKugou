@@ -1,0 +1,139 @@
+.main{
+	width:1000px;
+	height:1202px;
+	margin:0 auto;
+}
+.top{
+	width:1000px;
+	height:20px;
+	margin:20px auto;
+	color:#ADA8A8;
+	line-height:20px;
+	font-size:16px;
+}
+.top a,.top span{
+	color:#3D3D3D;
+	font-size:16px;
+}
+.lt{
+	width:180px;
+	height:642px;
+}
+.pic{
+	margin:2px 1px;
+	margin-bottom:20px;
+}
+.pic img{
+	box-shadow:1px 1px 2px 4px #ddd;
+}
+.share{
+	display:inline-block;
+	border-radius:3px;
+	background:#45A9EC;
+	width:100px;
+	height:30px;
+}
+.share span{
+	display:inline-block;
+ color:#fff;
+ font-size:16px;
+ margin-top:5px;
+ float:left;
+}
+.share span i{
+	display:inline-block;
+	width:40px;
+	height:30px;
+	background:url(../img/song/icon_splice.png) -290px 0px;
+	float:left;
+	margin-left:10px;
+ margin-top:1px;
+}
+.lt p{
+	color:#2D2D2D;
+	text-align:left;
+	font-size:14px;
+}
+.lt p span{
+	color:#494949;
+	font-size:14px;
+}
+.introDetail{
+margin-top:10px;
+}
+.rt{
+	width:780px;
+	height:1128px;
+	border-left:1px solid #ddd;
+	box-sizing:border-box;
+	padding:20px;
+}
+.rt p{
+	text-align:left;
+	color:#494949;
+	font-size:15px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.rt a{
+	display:inline-block;
+	border-radius:3px;
+	background:#45A9EC;
+	width:100px;
+	height:30px;
+}
+.rt a i{
+	display:inline-block;
+	width:50px;
+	height:30px;
+	float:left;
+	background:url(../img/song/search.png) 27px -81px no-repeat;
+}
+.rt a span{
+	margin-top:3px;
+	float:left;
+	color:#fff;
+	font-size:16px;
+}
+.rt div{
+	margin-bottom:20px;
+	border-bottom:1px solid #ccc;
+	height:35px;
+}
+.rt ul li{
+	height:30px;
+	line-height:30px;
+}
+.rt ul li:hover{
+	background:#DAF1FB;
+}
+.rt ul li span{
+	margin-left:10px;
+	color:#000;
+	font-size:15px;
+}
+.play{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	background:url(../img/song/icon_splice.png) -30px 0px no-repeat;
+	cursor:pointer;
+}
+.songShare{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	background:url(../img/song/icon_splice.png) -290px 0px no-repeat;
+	cursor:pointer;
+	margin-top:8px;
+}
+.rt ul li:hover .songShare{
+	background:url(../img/song/icon_splice.png) -290px -60px no-repeat;
+}
+.rt ul li:hover .play{
+	background:url(../img/song/icon_splice.png) -30px -60px no-repeat;
+}
+.rt ul li p{
+	width:100px;
+	height:20px;
+}
